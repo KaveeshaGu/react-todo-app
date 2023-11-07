@@ -1,13 +1,87 @@
 body {
+  font-family: Arial, sans-serif;
+  background-color: #525a67;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-container {
+  background-color: #222115;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: justify;
+}
+
+h1 {
+  color: #ffffff;
+  font-style: Black italic;
+  text-align: center;
+}
+
+.input-container {
+  margin-top: 100px;
+  text-align: center;
+  width: auto;
+  text-wrap: wrap;
+  word-spacing: 2px; /* Adjust the word spacing as needed */
+}
+
+/* Rest of your CSS code */
+
+/* Rest of your CSS code */
+
+input {
+  width: 70%;
+  padding: 5px;
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+button {
+  border-radius: 67px;
+  background-color: #383146;
+  color: #d9d9d9;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 100px;
+}
+
+li {
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin: 5px 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-button {
+  width: 50px;
+  background-color: #3d276a;
+  color: #d9d9d9;
+  text-align: left;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.edit-button {
+  width: 50px;
+  background-color: #3d276a;
+  color: #fff;
+  cursor: pointer;
 }
